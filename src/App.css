@@ -1,0 +1,28 @@
+.weather-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ADDBF8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+button{
+  width: 100px;
+  float:right;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 5px;
+}
