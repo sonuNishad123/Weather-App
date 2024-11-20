@@ -31,7 +31,7 @@ export default function Weather() {
         {weather && <>
         <div className='weather-info'>
           <h3>{weather.data.name}</h3>
-          <p>Temp is {weather.data.main.temp}</p>
+          <p>Temp is {Math.round(weather.data.main.temp - 273)}</p>
           <p>{weather.data.weather[0].description}</p>
         </div>
         </>}
